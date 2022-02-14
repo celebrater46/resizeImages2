@@ -5,7 +5,6 @@ from PIL import Image
 def resize():
     dst_dir = 'output'
     os.makedirs(dst_dir, exist_ok=True)
-
     files = glob.glob('input/*')
 
     for f in files:
